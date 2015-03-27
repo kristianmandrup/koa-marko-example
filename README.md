@@ -1,10 +1,25 @@
-In this episode we'll look at [Marko](https://github.com/raptorjs/marko "Marko") a relatively **new** and **fast** **templating engine** available in Node.js and in the browser.
+## Koa Marko Example
 
-There are over _two dozens_ choices in templating engines _available_ in _node.js_, and _figuring_ out _which_ one to _use_ can be quite the _burden_.
+## Run
 
-Here is my advice, **you must consider Marko!**
+`node server.js`
 
-I believe that I can **prove why** Marko is so great within the _first_ **2 minutes** of this **screencast**.
+## Design
+
+Showcases simple design of Multi-page Application server using Koa.js server, REST APIs and Marko templating
+
+- fixtures : sample data to simulate REST API calls (for tests)
+- /lib : small libraries of functions
+  - data.js : page configuration for which data to load
+  - render.js : renders page with data (using Marko)
+  - util.js : general app utils such as route factory method
+- public : static resources
+
+- server.js : server init
+- server_config.js : server configuration
+
+
+## Marko Templating: Async, Out-of Order, Streamed, Compressed Fragments
 
 Marko has several **killer features** that set it apart:
 
