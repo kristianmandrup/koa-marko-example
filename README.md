@@ -1,5 +1,7 @@
 ## Koa Marko Example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/koa-marko-example.svg)](https://greenkeeper.io/)
+
 ## Run
 
 `node server.js`
